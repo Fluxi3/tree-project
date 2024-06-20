@@ -12,7 +12,6 @@ body {
   background: #f7f5f0;
   background-image: url(images/code.png);
   background-size: cover;
-  background-attachment: relative;
   background-position: center;
 }
 
@@ -137,7 +136,6 @@ header .profile-image:hover {
 
 .card1 p, .card p, .exp p {
   font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
   font-style: normal;
 }
 
@@ -217,10 +215,8 @@ a.social:hover {
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   .flex {
-    display: -ms-flexbox; /* TWEENER - IE 10 */
     display: inline-block;
     max-width: 1200px;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
     margin: 0 auto;
   }
